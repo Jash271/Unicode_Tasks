@@ -29,7 +29,7 @@
 #### Adding onto Task3 ,The response is stored into a database model .
 ![Screenshot (318)](https://user-images.githubusercontent.com/51506649/63266994-c4997480-c2ae-11e9-8971-2fa3407307ba.png)
 #### The response is then fetched from the database and rendered using a template.
-#### Adding modifications done include:
+#### Additional Modifications:
  - Keeping a track whether the response is stored in the database
    - If so then there is no need to contact SPACEX API ,and display a message on the page stating that the details have been already downloaded ,you can directly view them .This prevents contacting the API on repeated basis and hence saves considerable loading time.
    if not ,then it loads the response into the so created database model
